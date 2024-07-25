@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+
+    
+    }
+            #shape {
+                font-family: "Dancing Script", cursive;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+                
+             }
+/* rgba(0, 0, 0, 0.7) */
+/* default style */
+.orange{
+    background-color: rgba(230, 83, 60, 1);
+}
+.light-gray{
+    color: rgba(255, 255, 255, 0.5);
+}
+.white{
+    color: rgba(255, 255, 255, 1);
+}
+.black{
+    color: rgba(255, 255, 255, 0.1);
+}
+.bblack{
+    background-color: black;
+    border: 2px solid white;
+}
+.btn{
+    background-color:rgba(230, 83, 60, 1) ;
+    padding: 10px 20px ;
+    border-radius: 40px;
+    
+}
+.banner-btn{
+    width: 13rem;
+    padding: 0.8rem;
+    border-radius: 40px;
+    
+
+}
+header{
+   /* background-color: linear(100% rgba(17, 17, 17, 1) 55%rgba(63, 63, 63, 0.5497)100%rgba(119, 119, 119, 0)); */
+   background: linear-gradient(360.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 800%);
+   border: none;
+   }
+/* start navbar */
+.navbar{
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+        margin: 0px 8%;
+}
+.navbar ul{
+    display: flex;
+    gap: 3rem;
+    border: 0.1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 15px 10px 0px;
+    border-radius: 40px;
+    margin-top: 50px;
+    background-color: black;
+}
+.navbar li{
+    list-style: none;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    }
+.logo{
+    font-weight: 800;
+    font-size: 2.2rem;
+    color:rgba(230, 83, 60, 1); ;
+    margin-top: 4%;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .menu-icon i{
+color: #fff;
+font-size: 1.4rem;
+    }
