@@ -90,3 +90,73 @@ header{
 color: #fff;
 font-size: 1.4rem;
     }
+    /* banner section */
+.banner{
+    max-width: 85%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 0%;
+       }
+.banner-container{
+        width: 50%;
+       }
+.banner-title{
+    
+    font-size: 4.9rem;
+}
+.banner-img img{
+    width:85%;
+       }
+.banner-description{
+    margin: 20px 0px;
+}
+.banner-btn{
+    font-weight: 600;
+}
+.box-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.box-container .box{
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    
+    }
+.box-container .container-2{
+position: relative;
+width: 40%;
+height: 3.3rem;
+right: 20%;
+bottom: 8rem;
+background-color: #282828;
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    align-items: center;
+}
+.box-container .box-2{
+    position: relative;
+    width: 45%;
+    height: 3.7rem;
+        bottom: 25rem;
+    right: 1%;
+    background-color: #282828;
+    
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.container-2{
+    display: flex;
+}
