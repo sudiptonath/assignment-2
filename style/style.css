@@ -160,3 +160,38 @@ background-color: #282828;
 .container-2{
     display: flex;
 }
+main{
+    background-color: black;
+}
+.habit-container{
+        max-width: 80%;
+    margin: 0 auto;
+        padding-top: 7%;
+}
+.habit-title{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.habit{
+    text-align: center;
+    margin: auto;
+}
+.habit-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+        text-align: center;
+        margin-top: 40px;
+        
+}
+.fit-img{
+    border-radius: 50%;
+}
+.gray{
+    color: rgba(255, 255, 255, 0.5);
+}
+.white{
+    color: rgba(255, 255, 255, 1);
+}
+.habit-img h4{
+    margin-bottom: 2px;
+}
