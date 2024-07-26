@@ -351,6 +351,93 @@ color:rgba(255, 255, 255, 0.5) ;
         padding-bottom: 6%;
         border: none;
         }
+        .yoga-container{
+            width: 80%;
+            margin: 5% auto;
+            color: white;
+            display: flex;
+            margin-bottom: 2%;
+            gap: 3%;
+        }
+        .yoga-title{
+width: 60%;
+        }
+        .yoga-title h2{
+            color: rgba(230, 83, 60, 1);
+            font-weight: bolder;
+            /* font-size: 1.5rem; */
+            margin-top: 10%;
+            margin-bottom: 5%;
+                                }
+        .yoga-title p{
+            color:gray;
+            
+        }
+        .yoga-img{
+            width:160%;
+            display: flex;
+            gap: 2%;
+            /* background-color: lightskyblue; */
+        }
+        .yoga-img img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+    .yoga-img .yoga-card1{
+border: 1px solid red;
+padding: 2%;
+/* background-color: lightskyblue; */
+box-shadow:5px 5px 20px red;
+/* border-radius: 15px; */
+    }
+       .yoga-img .yoga-card2{
+        margin-top: 10%;
+        margin-bottom: -10%;
+        border: 1px solid red;
+        padding: 2%;
+        /* border-radius: 15px; */
+        box-shadow:5px 5px 20px red;
+       }
+            
+        .yoga-img .yoga-card3{
+            border: 1px solid red;
+            padding: 2%;
+            /* background-color: lightskyblue; */
+            box-shadow:5px 5px 20px red;
+            /* border-radius: 15px; */
+        }
+        #yrelative{
+            position: relative;
+            bottom: 20%;
+            right: -10%;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        #yoga{
+            /* width: 40%; */
+            font-weight: bold;
+            font-size: 2rem;
+            color:rgba(230, 83, 60, 1);
+            position: relative;
+            /* left: 30%; */
+            bottom: 150%;
+            /* border: 1px solid skyblue; */
+            text-align: center;
+            border: 1px solid red;
+            box-shadow:5px 5px 20px  red;
+        }
+        #btn-yoga{
+            width: 90%;
+            border-radius: 10px;
+            background-color: rgba(230, 83, 60, 1);
+        }
+        #yoga:hover{
+            color: skyblue;
+            border: 1px solid skyblue;
+            box-shadow: 5px 5px 20px skyblue;
+        }
+        
          /* start footer section  */
          .fitness-containers{
             display: flex;
@@ -403,6 +490,7 @@ color: rgba(255, 255, 255, 0.5);
             color: rgba(255, 255, 255, 0.5);
             padding-bottom: 2%;
         }
+        
         @media screen and (max-width: 576px){
             .banner{
                 flex-direction: column;
@@ -484,5 +572,30 @@ color: rgba(255, 255, 255, 0.5);
                                                 font-size: 2rem;
                                             
                                             }
+                                          /* yoga section */
+                                          .yoga-container{
+                                            flex-direction: column;
+                                            gap: 5%;
+                                            }
+                                        .yoga-img{
+                                            flex-direction: column;
+                                            width: 100%;
+                                            height: 100%;
+                                            margin-top: 10%;
+                                        }
+                                        .yoga-title #btn-yoga{
+                                            width: 90%;
+                                        }
+                                        .yoga-img #yoga{
+                                            display: none;
+                                       }
+                                        .yoga-img .yoga-card2{
+                                            margin-bottom: 10%;
+                                        }
+                                        .yoga-title{
+                                            width: 100%;
+                                            text-align: center;
+                                        }
+        
                                         }
                                         
