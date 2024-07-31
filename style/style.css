@@ -358,6 +358,10 @@ color:rgba(255, 255, 255, 0.5) ;
         padding-bottom: 6%;
         border: none;
         }
+        .banner-img #smaller{
+            font-size: 0.9rem;
+        }
+        /* start yoga section */
         .yoga-container{
             width: 80%;
             margin: 5% auto;
